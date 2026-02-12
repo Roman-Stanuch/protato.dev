@@ -1,0 +1,9 @@
+{
+    "title": "Truffle Goat Blog",
+    "description": "The official blog of the developer Truffle Goat!",
+    "language": "en",
+    "base": "https://trufflegoat.com/",
+    "author": {
+        "name": "Roman Stanuch"
+    }
+}

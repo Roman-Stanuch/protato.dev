@@ -1,0 +1,82 @@
+:root {
+    --bg-color: #fafafa;
+    --primary-text-color: #1a1a2a;
+    --secondary-text-color: #666666;
+    --link-text-color: #709EEB;
+    --main-site-width: 100ch;
+
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0e0e14;
+        --primary-text-color: #e3e3e8;
+        --secondary-text-color: #9090a0;
+    }
+}
+
+body {
+    max-width: var(--main-site-width);
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+a {
+    color: var(--link-text-color);
+}
+
+img {
+    width: var(--main-site-width);
+    max-width: 100%;
+    height: auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+h1 {
+    font-size: 2.375rem;
+}
+
+h2 {
+    font-size: 1.875rem;
+    margin-block-end: 0;
+}
+
+h3 {
+    margin-block-end: 0;
+}
+
+hr {
+    border-color: var(--secondary-text-color);
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    width: 100;
+}
+
+.path {
+    color: var(--secondary-text-color);
+}
+
+.picture-caption {
+    color: var(--secondary-text-color);
+    margin-block-start: 0;
+}

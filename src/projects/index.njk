@@ -6,7 +6,14 @@ title: protato | projects
     <header class="path"><a href="/">root</a> / <a href="/projects">projects</a></header>
 {% endblock %}
 
-<h2>Greetings, I'm Protato!</h2>
+<h2>Projects</h2>
+
+{% for project in collections.projects | reverse %}
+    <h3>>> <a href="{{ project.url }}">{{ project.data.title }}</a></h3>
+{% endfor %}
+
 <p> 
-    About My Projects
+    I am presently working on redoing my portfolio with a new set of projects to properly showcase my
+    current skill level. If you are interested in seeing some of my past work, please check out my
+    <a href="https://create.roblox.com/talent/creators/450666657" target="_blank">Roblox Creator Page!</a>
 </p>

@@ -1,8 +1,8 @@
 {
-    "title": "Truffle Goat Blog",
-    "description": "The official blog of the developer Truffle Goat!",
+    "title": "Protato's Potato Thoughts",
+    "description": "The official blog of the developer Protato!",
     "language": "en",
-    "base": "https://trufflegoat.com/",
+    "base": "https://protato.dev/",
     "author": {
         "name": "Roman Stanuch"
     }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://trufflegoat.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://protato.dev/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Truffle Goat Blog</title>
-    <link>https://trufflegoat.com/</link>
-    <atom:link href="https://trufflegoat.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>The official blog of the developer Truffle Goat!</description>
+    <title>Protato&#39;s Potato Thoughts</title>
+    <link>https://protato.dev/</link>
+    <atom:link href="https://protato.dev/rss.xml" rel="self" type="application/rss+xml" />
+    <description>The official blog of the developer Protato!</description>
     <language>en</language>
     <item>
       <title>Musings of a Freelance Developer: Week 1</title>
-      <link>https://trufflegoat.com/blog/musings-week-one/</link>
-      <pubDate>Thu, 12 Feb 2026 23:52:18 GMT</pubDate>
+      <link>https://protato.dev/blog/musings-week-one/</link>
+      <pubDate>Fri, 13 Feb 2026 00:37:34 GMT</pubDate>
       <dc:creator>Roman Stanuch</dc:creator>
-      <guid>https://trufflegoat.com/blog/musings-week-one/</guid>
+      <guid>https://protato.dev/blog/musings-week-one/</guid>
     </item>
   </channel>
 </rss>

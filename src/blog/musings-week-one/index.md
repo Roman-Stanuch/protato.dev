@@ -1,5 +1,5 @@
 ---
-title: "Musings Week One"
+title: "Musings of a Freelance Developer Week One"
 pathtitle: musings-week-one
 layout: layouts/post.njk
 ---
